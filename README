@@ -12,3 +12,10 @@ Current state:
 - basic API v3 handler
 - functional password-based authentication
 - basic but usable low-level Gist API
+
+Development:
+To help developing gh.el, fork the project and issue a pull request.
+To run the tests check the Makefile and make sure you load the
+required libs with.
+
+EFLAGS = -l ../pcache/pcache.el -l ../logito/logito.el -l ../mocker.el/mocker.el
