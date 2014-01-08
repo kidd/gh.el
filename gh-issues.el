@@ -50,7 +50,7 @@
 
 (defclass gh-issues-issue (gh-object)
   ((url :initarg :url)
-   (html-url :initarg :html-url)
+   (html-url :initarg :html_url)
    (number :initarg :number)
    (state :initarg :state)
    (title :initarg :title)
